@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* cores neutras */
+    --blue: #1657FF;
+    --red: #FF1010;
+    --orange: #FF9A3E;
+    --purple: #8675FF;
+    --gray: #BACCFD;
+    --grenn: #16DBCC;
+    --yellow: #FFBB38;
+    --pink: #FF16A2;
+    --light-pink: #F44771;
+    --dark-purple: #332A7C;
+    --little-pink: #FD7289;
+    --dark-gray: #353E6C;
+    --light-blue: #DCFAF8;
+    --white: #FFF5D9;
+}
