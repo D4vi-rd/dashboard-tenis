@@ -1,0 +1,29 @@
+.tenis {
+    background: #ffffff;
+    width: 100%;
+    height: 900px;
+    max-width: 300px;
+    padding: 2rem;
+
+    .te {
+        width: 128px;
+        height: 38px;
+        margin-bottom: 60px;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+    .flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

@@ -27,4 +27,8 @@
 
 body {
     font-family: var(--ff-plus);
+    height: 100vh;
+}
+main {
+    display: flex;
 }
