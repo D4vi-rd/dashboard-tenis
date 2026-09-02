@@ -20,10 +20,21 @@ nav {
         display: flex;
         align-items: center;
         gap: 10px;
+        padding-bottom: 46px;
 
         img {
             width: 20px;
             height: 20px;
+        }
+    }
+
+    .li {
+        display: flex;
+        align-items: center;
+        
+        .live {
+            width: 30px;
+            height: 15px;
         }
     }
 }
