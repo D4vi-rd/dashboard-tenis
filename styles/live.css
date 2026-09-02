@@ -1,4 +1,23 @@
 .live {
     background: #c7d3f63c;
     width: 100vw;
+    padding-inline: 40px;
+}
+
+.live-bar {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .score {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        h2 {
+            color: var(--dark-purple);
+            font-size: 30px;
+        }
+    }
 }
