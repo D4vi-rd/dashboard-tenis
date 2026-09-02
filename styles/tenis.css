@@ -55,6 +55,7 @@ nav {
 }
 
 .card-tenis {
+    margin-top: 89px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,10 +64,13 @@ nav {
     border-radius: 12px;
     width: 250px;
     height: 293px;
+    position: relative;
 
     .cadeado {
         width: 215px;
         height: 215px;
+        position: relative;
+        top: -48px;
     }
     
     p {
@@ -75,6 +79,8 @@ nav {
         text-align: center;
         font-size: var(--ff-plus);
         letter-spacing: 1px;
+        position: relative;
+        top: -40px;
         
         span {
             color: var(--blue);
@@ -88,7 +94,11 @@ nav {
         background-color: var(--blue);
         color: var(--white);
         border: none;
-        border-radius: 12px;
-        
+        border-radius: 20px;  
+        position: relative;
+        padding: 18px 86px;
+         top: -20px;
+         font-weight: 700;
+         font-size: 1rem;
     }
 }
