@@ -53,3 +53,39 @@ nav {
         }
     }
 }
+
+.card-tenis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #EBEEFF;
+    border-radius: 12px;
+    width: 250px;
+    height: 293px;
+
+    .cadeado {
+        width: 215px;
+        height: 215px;
+    }
+    
+    p {
+        color: var(--dark-blue);
+        font-size: 1rem;
+        text-align: center;
+        font-size: var(--ff-plus);
+        letter-spacing: 1px;
+        
+        span {
+            color: var(--blue);
+            font-weight: bold;
+        }
+    }
+
+    button {
+        width: 230px;
+        height: 54px;
+        background-color: var(--blue);
+        color: var(--white);
+    }
+}
