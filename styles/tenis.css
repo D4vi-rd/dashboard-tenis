@@ -87,5 +87,8 @@ nav {
         height: 54px;
         background-color: var(--blue);
         color: var(--white);
+        border: none;
+        border-radius: 12px;
+        
     }
 }
