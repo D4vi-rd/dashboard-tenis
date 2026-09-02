@@ -47,7 +47,7 @@ nav {
         align-items: center;
         gap: 10px;
         
-        .live {
+        .on {
             width: 30px;
             height: 15px;
         }
