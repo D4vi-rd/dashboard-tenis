@@ -74,4 +74,50 @@
             }
         }
     }
+
+    .perso {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 53px;
+
+        .d1 {
+            display: flex;
+            align-items: center;
+            gap: 45px;
+
+            h2 {
+                font-size: 25px;
+            }
+
+            img {
+                width: 80px;
+            }
+
+            .naomi {
+                width: 85px;
+                height: 100px;
+                background: #FBC6D7;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 6px;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 20px;
+            }
+            .dita {
+                width: 85px;
+                height: 100px;
+                background: #FFE7C2;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 6px;
+            }
+        }
+
+        p {
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--dark-purple);
+        }
+    }
 }
