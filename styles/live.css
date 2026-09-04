@@ -38,3 +38,11 @@
         }
     }
 }
+
+/* class match, next-flex, perso, d1 */
+
+.match {
+    width: 650px;
+    height: 200px;
+    background-color: var(--branco);
+}

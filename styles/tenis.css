@@ -48,7 +48,7 @@ nav {
         gap: 10px;
         
         .on {
-            width: 30px;
+            width: 30px;  
             height: 15px;
         }
     }
