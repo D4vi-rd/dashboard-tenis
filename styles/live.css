@@ -162,5 +162,12 @@
 }
 
 .rank {
-    margin-block: 25px 21px;
+    margin-top: 25px;
+}
+
+.rankins {
+    margin-block: 21px 25px;
+    display: grid;
+    width: 650px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
