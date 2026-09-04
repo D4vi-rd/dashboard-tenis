@@ -134,8 +134,9 @@
 
 .duo-card {
     width: 650px;
+    height: 300px;
     flex-shrink: 0;
-    border: 1px solid blue;
+    
     position: relative;
    
     
@@ -158,4 +159,8 @@
             right: 27px;
         }
     }
+}
+
+.rank {
+    margin-block: 25px 21px;
 }
