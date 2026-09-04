@@ -5,6 +5,7 @@
 }
 
 .live-bar {
+    width: 1050px;
     margin-top: 52px;
     display: flex;
     align-items: center;
@@ -170,4 +171,16 @@
     display: grid;
     width: 650px;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.div {
+    display: flex;
+    gap: 20px;
+}
+
+.anin {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
 }
