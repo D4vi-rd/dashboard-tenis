@@ -121,3 +121,41 @@
         }
     }
 }
+
+.statis {
+    margin-block: 25px;
+    color: var(--dark-purple);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/*  cards duplos  */
+
+.duo-card {
+    width: 650px;
+    flex-shrink: 0;
+    border: 1px solid blue;
+    position: relative;
+   
+    
+
+    .data {
+    display: flex;
+    align-items: flex-start;
+
+    
+
+        .aaa,
+        .iii {
+            flex: 1;
+            /* height: 300px; */
+        }
+
+        .iii {
+            position: relative;
+            top: -24px;
+            right: 27px;
+        }
+    }
+}
