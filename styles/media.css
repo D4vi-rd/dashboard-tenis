@@ -1,0 +1,41 @@
+
+@media (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+        
+    }
+
+   
+    .tenis {
+        padding: 1rem 0;
+        width: 100%;
+        max-width: 768px;
+        height: auto ;
+        max-height: 200px ;
+        margin: 0 auto ;
+        background: #c7d3f63c;
+        display: flex;
+        justify-content: center;
+
+        .te {
+        width: 128px;
+        height: 38px;
+        margin: 0;
+    }
+        
+        
+        .flex {
+            display: none;
+           
+        }
+
+        .card-tenis {
+            display: none;
+        }
+    }
+}
