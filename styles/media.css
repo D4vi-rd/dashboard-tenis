@@ -125,7 +125,68 @@
                         }
                 }
             }
+
+            .duo-card {
+                display: flex;
+                justify-content: center;
+                width: 400px;
+                left: 15px;
+               
+                
+                .data {
+                    
+
+                    
+                    .aaa {
+                        position: relative;
+                        top: 17px;
+                        width: 200px;
+                        height: 180px;
+                    }
+
+                    .iii {
+                        
+                        top: 1px;
+                        right: -2px;
+                        height: 230px;
+                        width: 250px;
+                    }
+                }
+                
+            }
+
+            .rank {
+                font-size: 2rem;
+            }
+
+            .rankins {
+                width: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+
+                img {
+                    width: 200px;
+                    height: 100px;
+                }
+            }
+
+            .anin {
+                .profile {
+                    height: 400px;
+                    width: 300px;
+                    padding-bottom: 1rem;
+                }
+
+                img {
+                    width: 300px;
+                }
+            }
         }
+
+        
     }
 
 }
