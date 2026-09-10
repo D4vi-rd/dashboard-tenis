@@ -38,4 +38,25 @@
             display: none;
         }
     }
+
+    .live {
+        
+
+    }
+
+    .live-bar {
+        padding-top: 1rem;
+        width: 350px;
+        margin: auto;
+
+        .score {
+            img {
+                width: 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
 }
